@@ -7,13 +7,25 @@ html, body {
 body {
   background-color: $light;
   font-family: 'Lato-Light', sans-serif;
-  display: flex;
-  border: solid black;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: $dark;
+}
+
+h2 {
+  font-size: 1.3vmax;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: $light;
 }
 
 #header {
-  margin-top: 1%;
-  margin-left: 1%;
+  top: 4%;
+  left: 2%;
   position: absolute;
   h1 {
     margin: 0 0 5px 5px;
@@ -25,8 +37,117 @@ body {
 }
 
 #navbar {
+  display: flex;
+  flex-direction: row;
+  right: 1%;
+  top: 3%;
+  margin-left: auto;
+  height: 30px;
+  width: 400px;
   position: absolute;
-  margin-right: 20px;
-  padding-right: 20px;
-  border: solid black;
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .nav-link {
+      margin-bottom: 5px;
+    }
+    .nav-line {
+      height: 1px;
+      width: 135px;
+    }
+    .nav-blue {
+      background-color: $blue;
+    }
+    .nav-green {
+      background-color: $green;
+    }
+    .nav-red {
+      background-color: $red;
+    }
+  }
+  .nav-history{
+    a:hover, a:active {
+      color: $light;
+      background-color: $green;
+    }
+  }
+  .nav-school{
+    a:hover, a:active {
+      color: $light;
+      background-color: $blue;
+    }
+  }
+  .nav-project{
+    a:hover, a:active {
+      color: $light;
+      background-color: $red;
+    }
+  }
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 35%;
+  margin-top: 18%;
+  .sport {
+    width: 10%;
+    height: 100%;
+    h2 {
+      margin-top: 7%;
+      margin-left: 7%;
+    }
+  }
+  .sport-green {
+    background-color: $green;
+  }
+  .sport-red {
+    background-color: $red;
+  }
+  .sport-blue {
+    background-color: $blue;
+  }
+}
+
+#desc {
+
+  .desc-header {
+    position: absolute;
+    z-index: -1;
+    max-width: 53%;
+  }
+
+  .desc-triangle {
+    margin-top: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  h1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    font-size: 2.7vmax;
+  }
+
+  .desc-text {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    max-width: 55%;
+  }
+
+  .desc-line {
+    background-color: $dark;
+    height: 1px;
+    width: 70%;
+    margin-left: 15%;
+  }
 }

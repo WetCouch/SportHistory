@@ -5,13 +5,23 @@ html, body {
 
 body {
   background-color: #F0F2F2;
-  font-family: 'Lato-Light', sans-serif;
-  display: flex;
-  border: solid black; }
+  font-family: 'Lato-Light', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+a:link, a:visited {
+  color: #2D2D2D; }
+
+h2 {
+  font-size: 1.3vmax;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #F0F2F2; }
 
 #header {
-  margin-top: 1%;
-  margin-left: 1%;
+  top: 4%;
+  left: 2%;
   position: absolute; }
   #header h1 {
     margin: 0 0 5px 5px;
@@ -21,9 +31,85 @@ body {
     font-weight: 300; }
 
 #navbar {
+  display: flex;
+  flex-direction: row;
+  right: 1%;
+  top: 3%;
+  margin-left: auto;
+  height: 30px;
+  width: 400px;
+  position: absolute; }
+  #navbar .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    #navbar .nav .nav-link {
+      margin-bottom: 5px; }
+    #navbar .nav .nav-line {
+      height: 1px;
+      width: 135px; }
+    #navbar .nav .nav-blue {
+      background-color: #1394CC; }
+    #navbar .nav .nav-green {
+      background-color: #BCCF02; }
+    #navbar .nav .nav-red {
+      background-color: #F0563D; }
+  #navbar .nav-history a:hover, #navbar .nav-history a:active {
+    color: #F0F2F2;
+    background-color: #BCCF02; }
+  #navbar .nav-school a:hover, #navbar .nav-school a:active {
+    color: #F0F2F2;
+    background-color: #1394CC; }
+  #navbar .nav-project a:hover, #navbar .nav-project a:active {
+    color: #F0F2F2;
+    background-color: #F0563D; }
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 35%;
+  margin-top: 18%; }
+  #content .sport {
+    width: 10%;
+    height: 100%; }
+    #content .sport h2 {
+      margin-top: 7%;
+      margin-left: 7%; }
+  #content .sport-green {
+    background-color: #BCCF02; }
+  #content .sport-red {
+    background-color: #F0563D; }
+  #content .sport-blue {
+    background-color: #1394CC; }
+
+#desc .desc-header {
   position: absolute;
-  margin-right: 20px;
-  padding-right: 20px;
-  border: solid black; }
+  z-index: -1;
+  max-width: 53%; }
+#desc .desc-triangle {
+  margin-top: 0;
+  margin-right: 0;
+  max-width: 100%; }
+#desc h1 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  font-size: 2.7vmax; }
+#desc .desc-text {
+  position: absolute;
+  top: 30%;
+  right: 1%;
+  max-width: 55%; }
+#desc .desc-line {
+  background-color: #2D2D2D;
+  height: 1px;
+  width: 70%;
+  margin-left: 15%; }
 
 /*# sourceMappingURL=styles.css.map */
