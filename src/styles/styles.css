@@ -96,7 +96,7 @@ h2 {
   position: absolute;
   z-index: -1;
   width: 55%;
-  min-width: 820px;
+  min-width: 800px;
   height: 70%;
   max-height: 800px; }
   #desc .desc-header .desc-triangle {
