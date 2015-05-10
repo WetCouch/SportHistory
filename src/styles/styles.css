@@ -23,7 +23,7 @@ h2 {
   top: 4%;
   left: 2%;
   position: absolute; }
-  #header h1 {
+  #header .header-title {
     margin: 0 0 5px 5px;
     color: #2D2D2D;
     font-size: 2vmax;
@@ -87,14 +87,15 @@ h2 {
 #desc .desc-header {
   position: absolute;
   z-index: -1;
-  max-width: 53%; }
+  width: 53%;
+  height: 70%; }
 #desc .desc-triangle {
   margin-top: 0;
   margin-right: 0;
   max-width: 100%; }
 #desc h1 {
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 20%;
   font-family: Lato, sans-serif;
   font-weight: 300;
@@ -106,10 +107,23 @@ h2 {
   top: 30%;
   right: 1%;
   max-width: 55%; }
+  #desc .desc-text h2, #desc .desc-text h3 {
+    color: #2D2D2D;
+    font-family: Lato, sans-serif;
+    font-weight: 300; }
+  #desc .desc-text .desc-signature {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #2D2D2D; }
 #desc .desc-line {
   background-color: #2D2D2D;
   height: 1px;
   width: 70%;
-  margin-left: 15%; }
+  margin-left: 15%;
+  margin-bottom: 1%; }
+
+.is-white {
+  color: #F0F2F2; }
 
 /*# sourceMappingURL=styles.css.map */
