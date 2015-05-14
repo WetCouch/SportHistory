@@ -128,8 +128,8 @@ h2 {
     position: absolute;
     z-index: -1;
     width: 55%;
-    min-width: 800px;
-    height: 70%;
+    min-width: 500px;
+    height: 100%;
     max-height: 800px;
     .desc-triangle {
       margin-top: 0;
@@ -140,20 +140,20 @@ h2 {
 
   .desc-title {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 30%;
+    left: 8%;
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-style: italic;
     color: $light;
-    font-size: 2.7vw;
+    font-size: 2.4vw;
   }
 
   .desc-text {
     position: absolute;
     top: 30%;
     right: 1%;
-    width: 55%;
+    width: 57%;
     max-width: 1000px;
 
     h2, h3 {
