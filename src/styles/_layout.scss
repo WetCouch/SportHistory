@@ -28,9 +28,9 @@ h2 {
   top: 4%;
   left: 2%;
   position: absolute;
+  color: $dark;
   .header-title {
     margin: 0 0 5px 5px;
-    color: $dark;
     font-size: 2vw;
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -145,7 +145,7 @@ h2 {
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-style: italic;
-    color: white;
+    color: $light;
     font-size: 2.7vw;
   }
 
@@ -204,12 +204,13 @@ h2 {
     flex-direction: row;
     -webkit-flex-direction: row;
     position: absolute;
-    height: 10%;
+    height: 70%;
     width: 100%;
 
     .desc-img {
       width: 95%;
       height: 50%;
+      margin-left: 10px;
     }
   }
 }

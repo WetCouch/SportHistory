@@ -23,10 +23,10 @@ h2 {
 #header {
   top: 4%;
   left: 2%;
-  position: absolute; }
+  position: absolute;
+  color: #2D2D2D; }
   #header .header-title {
     margin: 0 0 5px 5px;
-    color: #2D2D2D;
     font-size: 2vw;
     font-family: Lato, sans-serif;
     font-weight: 300; }
@@ -112,7 +112,7 @@ h2 {
   font-family: Lato, sans-serif;
   font-weight: 300;
   font-style: italic;
-  color: white;
+  color: #F0F2F2;
   font-size: 2.7vw; }
 #desc .desc-text {
   position: absolute;
@@ -159,11 +159,12 @@ h2 {
   flex-direction: row;
   -webkit-flex-direction: row;
   position: absolute;
-  height: 10%;
+  height: 70%;
   width: 100%; }
   #desc .desc-imgs .desc-img {
     width: 95%;
-    height: 50%; }
+    height: 50%;
+    margin-left: 10px; }
 
 .is-white {
   color: #F0F2F2; }
