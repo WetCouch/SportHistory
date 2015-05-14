@@ -160,7 +160,8 @@ h2 {
   -webkit-flex-direction: row;
   position: absolute;
   height: 70%;
-  width: 100%; }
+  width: 100%;
+  margin-top: 10px; }
   #desc .desc-imgs .desc-img {
     width: 95%;
     height: 50%;
